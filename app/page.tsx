@@ -12,6 +12,7 @@ export default function ReportsPage() {
   const transactions: Transaction[] = useLiveQuery(() => financeRepo.getTransactions()) || [];
   const categories: Category[] = useLiveQuery(() => db.categories.toArray()) || [];
 
+  // Fix: Initialize with empty string to prevent SSR prerender mismatch
   const [selectedMonth, setSelectedMonth] = useState('');
 
   useEffect(() => {
