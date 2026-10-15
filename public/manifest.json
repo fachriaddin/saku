@@ -1,0 +1,16 @@
+{
+  "name": "Saku — Private Finance Tracker",
+  "short_name": "Saku",
+  "description": "Private, offline-first personal finance tracking PWA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090D16",
+  "theme_color": "#2563EB",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
